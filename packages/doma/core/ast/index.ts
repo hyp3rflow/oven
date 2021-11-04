@@ -1,4 +1,4 @@
-import { Span } from '../parser/parser.ts';
+import { Span } from 'https://deno.land/x/pbkit@v0.0.22/core/parser/recursive-descent-parser.ts';
 
 export interface Cook {
   statements: Node[];
